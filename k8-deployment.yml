@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: rest-cont
-        image: akhilp1468/rest-image:latest
+        image: akhilp1468/rest-image:final
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
